@@ -7,7 +7,13 @@
     <title>Document</title>
 </head>
 <body>
+    <nav>
+        
+        <a href="{%url 'home'%}">home</a>
+        <a href="{%url 'about'%}">about</a>
+    </nav>
     {% block content%}
+<h1>Home Page Thanks for visiting</h1>
     {% endblock content%}
 
 </body>

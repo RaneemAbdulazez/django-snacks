@@ -19,5 +19,7 @@ import snacks
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/',include('snacks.urls')),
+    path('',include('snacks.urls')),
+    # path('about/',include('snacks.urls')),
+
 ]

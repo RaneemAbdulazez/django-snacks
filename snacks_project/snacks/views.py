@@ -4,3 +4,6 @@ from django.shortcuts import render
 
 class HomePageView(TemplateView):
     template_name="home.html" #load this template
+
+class AboutView(TemplateView):
+    template_name="about.html" #load this template
